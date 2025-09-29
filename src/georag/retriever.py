@@ -121,7 +121,6 @@ def calibrate_confidence(
     if contradict:
         conf -= contradict_penalty
 
-    # Final clamp
     out["confidence"] = float(max(0.0, min(1.0, conf)))
     return out
 
