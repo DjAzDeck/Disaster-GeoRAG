@@ -1,0 +1,12 @@
+transformers==4.35.0
+accelerate
+peft
+sentence-transformers
+faiss-cpu
+gradio
+rasterio
+numpy
+pillow
+einops
+sentencepiece
+webdataset

@@ -1,0 +1,13 @@
+id	type	cue	source
+kb:001	flood	Standing water over roads/fields; sediment-laden brown water near rivers.	CEMS/NASA
+kb:002	flood	Bridges/roads terminating into water; submerged vegetation edges.	CEMS/NASA
+kb:010	wildfire	Burn scars: dark/charred patches with sharp perimeters; active smoke plumes.	CEMS/NASA
+kb:011	wildfire	Hotspots and linear fire fronts; ash deposition downwind.	CEMS/NASA
+kb:020	storm_wind	Windthrow in forests (downed trees aligned); roof loss; debris lines.	CEMS/NASA
+kb:021	storm_wind	Coastal surge inundation bands; damaged piers; sand overwash.	CEMS/NASA
+kb:030	earthquake	Pancaked roofs; rubble piles; dust plumes; grid-like urban damage.	CEMS/NASA
+kb:040	landslide	Fresh bare soil tongues/fans downslope; blocked rivers/roads.	CEMS/NASA
+kb:041	landslide	Scar at headwall, runout with mixed debris; dammed lake upstream.	CEMS/NASA
+kb:050	volcano	Ash plume from summit vent; fresh lava flows with high thermal/low albedo.	CEMS/NASA
+kb:060	drought	Exposed sandbars; receded shorelines; desiccation cracks; crop stress.	CEMS/NASA
+kb:070	industrial	Oil sheen/discoloration on water; plume from refinery/plant.	CEMS/NASA

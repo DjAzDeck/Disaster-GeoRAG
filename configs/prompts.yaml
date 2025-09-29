@@ -1,0 +1,21 @@
+system: |
+  You are an EO disaster analyst. Be precise and informative.
+  If unsure, answer with "uncertain". Return only valid JSON.
+
+user_template: |
+  [Context]
+  Sensor: {sensor}; Satellite: {satellite}; Modality: {modality}; Resolution: {resolution}
+  Location: {location}; Lat: {lat}; Lon: {lon}
+  Date: {date}; Cloud: {cloud}%
+  Retrieved disaster cues:
+  {retrieved}
+
+  [Task]
+  From this satellite image, answer:
+  1) Is there a disaster? (true/false/"uncertain")
+  2) If true, choose ONE from: [flood, wildfire, storm_wind, earthquake, landslide, volcano, drought, industrial]
+  3) Provide a 1-2 sentence rationale using the retrieved cues.
+
+  [Output JSON schema]
+  {{"is_disaster": true|false|"uncertain", "type": "..."|null, "confidence": 0.xx,
+    "rationale": "...", "evidence_ids": ["kb:###", "..."]}}

@@ -1,0 +1,18 @@
+labels:
+  - flood
+  - wildfire
+  - storm_wind
+  - earthquake
+  - landslide
+  - volcano
+  - drought
+  - industrial
+synonyms:
+  flood: [inundation, overflow, standing_water]
+  wildfire: [fire, burn_scar, active_fire]
+  storm_wind: [hurricane, cyclone, typhoon, wind_damage, storm_surge]
+  earthquake: [seismic, rubble, collapsed_buildings]
+  landslide: [mass_movement, debris_flow, slope_failure]
+  volcano: [eruption, ash_plume, lava, lahar]
+  drought: [arid, water_stress, dry_spell]
+  industrial: [oil_spill, chemical_leak, refinery_fire]
